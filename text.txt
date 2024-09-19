@@ -1,4 +1,4 @@
-1. settings.py
-2. render упрощает процесс создания ответа, объединяя 
-данные контекста с HTML-шаблоном и возвращая готовый HTTP-ответ
-3. templates
+1. для описание модели
+2. python manage.py makemigrations
+3. migrations
+4. python manage.py migrate

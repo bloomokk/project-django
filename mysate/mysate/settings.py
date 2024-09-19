@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hello.apps.HelloConfig',
     'library.apps.LibraryConfig',
-    'privet.apps.PrivetConfig'
+    'privet.apps.PrivetConfig',
+    'book.apps.BookConfig'
 ]
 
 MIDDLEWARE = [

@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'hello.apps.HelloConfig',
     'library.apps.LibraryConfig',
     'privet.apps.PrivetConfig',
-    'book.apps.BookConfig'
+    'book.apps.BookConfig',
+    'student.apps.StudentConfig',
 ]
 
 MIDDLEWARE = [

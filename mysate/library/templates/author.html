@@ -8,7 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<h1>{{ book.title }}</h1>
-    <p>{{ book.auther.name }}</p>
+    {% for i in author %}
+        <h1>{{ i.title }}</h1>
+    {% endfor %}
 </body>
 </html>

@@ -4,7 +4,7 @@ from .models import Book, Author
 
 def get_book(req):
   book = Book.objects.get(id=1)
-  return render(req, 'base.html', {'book': book})
+  return render(req, 'home.html', {'book': book})
 
 
 def get_author(req):

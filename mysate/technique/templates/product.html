@@ -5,6 +5,7 @@
     <div class="products flex flex-wrap gap-3">
         {% for element in product %}
             <div class="flex flex-col bg-gray-200 p-3 rounded">
+                <img src="{{element.image.url}}" style="border-radius: 5px 5px 0 0;" alt="">
                 <h1 class="text-xl font-bold">{{element.title}}</h1>
                 <p>Описание: {{element.description}}</p>
                 <p>Рейтинг: {{element.rating}}</p>

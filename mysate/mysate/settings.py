@@ -28,6 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MADIA_ROOT = os.path.join(BASE_DIR,'media')
+MADIA_URL = '/media/'
 
 # Application definition
 

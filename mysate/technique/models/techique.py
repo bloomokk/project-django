@@ -5,3 +5,4 @@ class Techique(models.Model):
     description = models.TextField()
     rating = models.IntegerField()
     price = models.IntegerField()
+    image = models.ImageField(null=True, blank=True, upload_to='technique/madia/%Y/%m/%d')
